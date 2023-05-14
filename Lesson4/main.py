@@ -1,5 +1,6 @@
 from student import ItStepStudent
-Mykhailo = ItStepStudent("Mykhailo", 12, 156, "V2011", 13)
+mykhailo = ItStepStudent("Mykhailo", 12, 156, "V2011", 13)
+print(mykhailo.__str__())
 
 '''
 class ClassBase1:

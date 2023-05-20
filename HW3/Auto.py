@@ -2,6 +2,7 @@ class Human:
     def init(self, name=None):
         self.name = name
 
+
 class Auto:
     def init(self, brand=None):
         self.Brand = brand
@@ -22,16 +23,16 @@ class Auto:
 
 
 # Створюємо об'єкти людини
-john = Human("John")
-emma = Human("Emma")
+miha = Human("Miha")
+katya = Human("Katya")
 
 # Створюємо об'єкт автомобіля
 car = Auto("Toyota")
 
 # Додаємо водія та пасажирів до автомобіля
-car.AddDriver(john)
-car.AddPassenger(emma)
+car.AddDriver(miha)
+car.AddPassenger(katya)
 
 # Викликаємо методи для виведення інформації про водія та пасажира
-car.ToStringDriver(john.name)
-car.ToStringPassenger(emma.name)
+car.ToStringDriver(miha.name)
+car.ToStringPassenger(katya.name)

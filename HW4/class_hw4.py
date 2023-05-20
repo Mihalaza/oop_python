@@ -21,7 +21,7 @@ class DerivedClass(BaseClass1, BaseClass2):
     def derived_method(self):
         print("Derived Method")
 
-
+# Створення об'єкту похідного класу
 derived_obj = DerivedClass()
 
 
